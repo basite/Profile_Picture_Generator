@@ -1,0 +1,78 @@
+[debug] [2018-12-11T08:08:02.233Z] ----------------------------------------------------------------------
+[debug] [2018-12-11T08:08:02.237Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2018-12-11T08:08:02.237Z] CLI Version:   6.1.2
+[debug] [2018-12-11T08:08:02.237Z] Platform:      win32
+[debug] [2018-12-11T08:08:02.237Z] Node Version:  v8.12.0
+[debug] [2018-12-11T08:08:02.239Z] Time:          Tue Dec 11 2018 15:08:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-12-11T08:08:02.239Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-11T08:08:02.263Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-11T08:08:02.265Z] > authorizing via signed-in user
+[debug] [2018-12-11T08:08:02.270Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-12-11T08:08:03.372Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-11T08:08:31.939Z] TypeError: Cannot read property 'short' of undefined
+    at Prompt.render (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:94:69)
+    at Prompt.onSubmit (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:116:8)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver.tryCatcher (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:63:31)
+    at AutoDetachObserverPrototype.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:5782:51)
+    at AutoDetachObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver._onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:4234:13)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-12-11T08:08:39.279Z] ----------------------------------------------------------------------
+[debug] [2018-12-11T08:08:39.283Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2018-12-11T08:08:39.283Z] CLI Version:   6.1.2
+[debug] [2018-12-11T08:08:39.283Z] Platform:      win32
+[debug] [2018-12-11T08:08:39.283Z] Node Version:  v8.12.0
+[debug] [2018-12-11T08:08:39.284Z] Time:          Tue Dec 11 2018 15:08:39 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-12-11T08:08:39.284Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-11T08:08:39.308Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-11T08:08:39.309Z] > authorizing via signed-in user
+[debug] [2018-12-11T08:08:39.314Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-12-11T08:08:40.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-11T08:08:56.148Z] TypeError: Cannot read property 'short' of undefined
+    at Prompt.render (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:94:69)
+    at Prompt.onSubmit (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:116:8)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver.tryCatcher (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:63:31)
+    at AutoDetachObserverPrototype.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:5782:51)
+    at AutoDetachObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver._onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:4234:13)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-12-11T08:09:02.702Z] ----------------------------------------------------------------------
+[debug] [2018-12-11T08:09:02.708Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2018-12-11T08:09:02.708Z] CLI Version:   6.1.2
+[debug] [2018-12-11T08:09:02.709Z] Platform:      win32
+[debug] [2018-12-11T08:09:02.709Z] Node Version:  v8.12.0
+[debug] [2018-12-11T08:09:02.710Z] Time:          Tue Dec 11 2018 15:09:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-12-11T08:09:02.710Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-11T08:09:02.733Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-11T08:09:02.735Z] > authorizing via signed-in user
+[debug] [2018-12-11T08:09:02.739Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-12-11T08:09:03.780Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-11T08:09:23.791Z] TypeError: Cannot read property 'short' of undefined
+    at Prompt.render (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:94:69)
+    at Prompt.onSubmit (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:116:8)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver.tryCatcher (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:63:31)
+    at AutoDetachObserverPrototype.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:5782:51)
+    at AutoDetachObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+    at AnonymousObserver._onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:4234:13)
+    at AnonymousObserver.Rx.AnonymousObserver.AnonymousObserver.next (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1535:12)
+    at AnonymousObserver.Rx.internals.AbstractObserver.AbstractObserver.onNext (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rx-lite\rx.lite.js:1469:31)
+[error] 
+[error] Error: An unexpected error has occurred.
